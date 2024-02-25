@@ -56,3 +56,7 @@ while( true) {
 //going to make n = 12, next prime is 13
 //with n = 51, 53 is the next number of 
 //seems to be only odd numbers
+
+//Part 3
+//Loopy CVS data
+ID,Name,Occupation,Age42,Bruce,Knight,4157,Bob,Fry Cook,1963,Blaine,Quiz Master,5898,Bill,Doctor’s Assistant,26
