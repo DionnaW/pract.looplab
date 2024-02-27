@@ -35,26 +35,26 @@
 // 
 //Part 2
 //find a number; using number 10
-// let n = 51;
+let n = 51;
 // function to see if it's a prime number
-// function isPrime(num) {
-    // for(let i = 2; i < num; i++) {
-        // if(num % i ===0) {
-            // return false;
-        // }
-    // }
-    // return num > 1;
-// }
+function isPrime(num) {
+    for(let i = 2; i < num; i++) {
+        if(num % i === 0) {
+            return false;
+        }
+    }
+    return num > 1;
+}
 
 //i didn't get any return with 10, so it's not a prime number
 //next prime number
-// while( true) {
-    // if(isPrime(n)){
-        // console.log("Next prime number:", n);
-        // break
-    // }
-    // n++
-// }
+while( true) {
+    if(isPrime(n)){
+        console.log("Next prime number:", n);
+        break
+    }
+    n++
+}
 //11 is the next prime number
 //going to make n = 12, next prime is 13
 //with n = 51, 53 is the next number of 
